@@ -1,0 +1,191 @@
+body{
+    font-family: 'Montserrat', sans-se;
+}
+footer{
+    display: flex;
+    height: auto;
+    min-height: 750px;
+}
+.footer {
+    width: 55%;
+    background-color: #0c111f;
+    color: white;
+    padding-left: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 0 0px;
+}
+nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    
+}
+span{
+    font-size: 20px;
+    font-weight: 800;
+}
+li{
+    list-style-type: none; 
+}
+li a{
+    font: 14px "Medium", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+.infofoot h1, .balonkun{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 89px;
+}
+.balonkun{
+    color: #F6B405;
+}
+.infofoot p{
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.7;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.galery{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.nav_btn{
+    border-radius: 40px;
+    padding: 15px 50px 15px 15px;
+    background-color: #F6C020;
+    background-image: url(img/go.svg);
+    background-repeat: no-repeat;
+    background-position: 115% 15%;
+    color: #0C111F;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+.proposal{
+    width: 45%;
+    background-image: url(img/recommendations.jpg);
+    background-repeat: no-repeat;
+}
+.propo_btn{
+    border-radius: 40px;
+    background-color:  rgba(12, 17, 31, 0.5);
+    color: white;
+    padding: 20px 65px 20px 20px;
+    margin: 20px 0 0 400px;
+    background-image: url(img/whatsApp.svg);
+    background-repeat: no-repeat;
+    background-position: 115% 18%;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+.cappadocia{
+    height: auto;
+    width: 433px;
+    margin: 60px 0 0 110px;
+    background-color: #F7F7F7;
+    border-radius: 40px;
+}
+.inf{
+    display: grid;
+    background-image: url(img/cappadocia.png);
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    background-color: white;
+}
+.watch{
+    margin: 50px 0 0px 0;
+    align-self: center;
+    justify-self: center;
+}
+.infCappadocia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.grade_btn{
+    margin: 20px;
+    padding: 10px 10px 10px 60px;
+    color: white;
+    background-image: url(img/img_grade.svg);
+    background-color:  rgba(28,37,61, 0.7);
+    background-repeat: no-repeat;
+    background-position: -13px 30%;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+}
+.map_btn{
+    background-image: url(img/map.svg);
+    background-repeat: no-repeat;
+    background-position: 13px 45%;
+    padding: 10px 15px 10px 50px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.22);
+    color: white;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+}
+.detailed h2{
+    font-size: 26px;
+    font-weight: 700;
+}
+.detailed p, a{
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.detailed p{
+    color: rgba(12, 17, 31, 0.6);
+}
+.detailed{
+    margin: 70px 0 0 20px;
+    border-radius: 0 0 40px 40px;
+}
+.price{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 20px 0 20px;
+}
+.price {
+    font-size: 20px;
+    color: rgba(12, 17, 31, 0.6);
+}
+.price span{
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+}
+.reser_btn{
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(135deg, #8482FF 0%, #7723FE 100%);
+    padding: 14px 23px;
+    color: white;
+    font-size: 17px;
+}
+.img_sponsor{
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7F7F7;
+}

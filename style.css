@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-se;
+    background-color: #FEFEFE;
 }
 footer{
     display: flex;
@@ -311,13 +312,177 @@ li a{
     top: 69%;
     right: 3%;
 }
+.navigation_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.navigation_2 h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #0C111F;
+    margin: 0;
+}
+.navigation_2 p{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #0C111F;
+    opacity: 0.6;
+}
+.movement{
+    display: flex;
+    justify-content: space-around;
+    gap: 27px;
+    background: #F7F7F7;
+    border-radius: 44px;
+    padding: 0;
+    margin-top: 40px;
+}
+.movement li{
+    padding: 15px;
+}
+.movement .selected{
+    background: linear-gradient(135deg, #F9EC7D 0%, #F5B100 100%);
+    border-radius: 32px;
+
+}
+.movement a{
+    color: #131822;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+}
+.rekomendasi{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.cappadocia_3{
+    width: 390px;
+}
+.inf_3{
+    background-image: url(img/luxor.png);
+    background-size: 435px;
+}
+.inf_4{
+    background-image: url(img/bagan.png);
+    background-size: 435px;
+}
+.cappadocia_3 .grade{
+    height: 26px;
+    gap: 8px;
+    margin: 15px;
+    font-size: 16px;
+}
+.cappadocia_3 .map{
+    height: 24px;
+    gap: 8px;
+    margin: 15px;
+    font-size: 17px;
+}
+.cappadocia_3 h2{
+    font-size: 24px;
+}
+.cappadocia_3 p, a{
+    font-size: 14px;
+    line-height: 26px;
+}
+.cappadocia_3 .detailed{
+    margin-top: 80px;
+}
+.cappadocia_3 .reser_btn{
+    font-size: 13px;
+}
+.arrow{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.arrow a{
+    font-size: 20px;
+    line-height: 180%;
+}
+.navigation_3{
+    justify-content: space-between;
+    margin: 160px 80px 60px 80px;
+}
+.navigation_3 h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.navigation_3 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 180%;
+}
+.inf_5{
+    background-image: url(img/sossusvlei.png);
+    background-size: 435px;
+}
+.inf_6{
+    background-image: url(img/albuquerque.png);
+    background-size: 435px;
+}
+.advantage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 160px;
+}
+.experience h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.experience p{
+    font-size: 20px;
+    line-height: 180%;
+    opacity: 0.6;
+}
+.experience .map{
+    position: absolute;
+    top: 0;
+}
+.img{
+    position: relative;
+    margin-top: 40px;
+}
+.positive{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.pos{
+    display: flex;
+    gap: 34px;
+    border-bottom: 2px solid #F7F7F7;
+}
+.pos h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+.pos p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    opacity: 0.6;
+}
+
 @media (max-width: 1250px){
     .footer{
         width: 42%;
         padding: 0 15px 0 15px;
     }
+    .footer_img{
+        left: 38%;
+    }
     .proposal{
         width: auto;
+        background-size: 1500px;
     }
     .infofoot h1, .balonkun{
         font-size: 40px;
@@ -456,7 +621,6 @@ li a{
         left: 39%;
     }
     .left_btn{
-        width: ;
         top: 118%;
         right: 0;
         width: 95px;
